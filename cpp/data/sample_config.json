@@ -1,0 +1,16 @@
+{
+  "bufr_input": "sample.bufr",
+  "csv_output_dir": "output",
+  "echo_tops_matrix": "sample_echo_tops.csv",
+  "merged_geojson_output": "output/contours.geojson",
+  "image_output_path": "output/contours.bmp",
+  "image_width": 1024,
+  "image_height": 1024,
+  "tables_path": "descriptor_tables.json",
+  "radar_latitude": 55.75,
+  "radar_longitude": 37.61,
+  "radar_altitude_m": 200.0,
+  "grid_cell_size_km": 1.0,
+  "reflectivity_thresholds": [35.0],
+  "allowed_phenomena": []
+}

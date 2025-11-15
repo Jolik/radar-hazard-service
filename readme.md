@@ -69,3 +69,7 @@ Example response:
 ## License
 
 MIT
+
+## C++ radar hazard pipeline
+
+The `cpp/` directory ships a C++ implementation of the BUFR-based radar hazard contouring methodology. It provides BUFR decoding, geodesic gate reconstruction, 8-connected clustering, echo top integration, multi-radar contour merging, and CSV/GeoJSON export. Refer to `cpp/README.md` for build and usage details.
