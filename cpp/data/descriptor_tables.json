@@ -1,0 +1,11 @@
+{
+  "0-001-019": {"mnemonic": "AZIMUTH", "scale": 2, "reference": 0, "bits": 12, "unit": "deg"},
+  "0-001-020": {"mnemonic": "ELEVATION", "scale": 2, "reference": 0, "bits": 10, "unit": "deg"},
+  "0-002-063": {"mnemonic": "RANGE", "scale": 0, "reference": 0, "bits": 16, "unit": "km"},
+  "0-002-101": {"mnemonic": "ROW", "scale": 0, "reference": 0, "bits": 16, "unit": "index"},
+  "0-002-102": {"mnemonic": "COLUMN", "scale": 0, "reference": 0, "bits": 16, "unit": "index"},
+  "0-008-021": {"mnemonic": "DBZH", "scale": 1, "reference": -320, "bits": 16, "unit": "dBZ"},
+  "0-008-022": {"mnemonic": "VRAD", "scale": 2, "reference": -5000, "bits": 16, "unit": "m/s"},
+  "0-008-023": {"mnemonic": "SWRAD", "scale": 2, "reference": 0, "bits": 16, "unit": "m/s"},
+  "0-020-003": {"mnemonic": "PHENOMENON", "scale": 0, "reference": 0, "bits": 8, "unit": "code"}
+}
