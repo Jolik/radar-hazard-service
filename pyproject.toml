@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radar-hazard-service"
+version = "0.1.0"
+description = "A lightweight hazard assessment microservice."
+readme = "readme.md"
+authors = [{name = "Radar Ops Team"}]
+license = {text = "MIT"}
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4"
+]
+
+[project.scripts]
+radar-hazard-service = "radar_hazard_service.main:run"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
